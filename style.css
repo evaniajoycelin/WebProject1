@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.main-container {
+    max-width: 1510px;
+    margin: auto;
+}
+
+.contact-us, .container-testimoni, .container-menu, .container-checkout, .container-cart, .container-cashier, #testi-empty{
+    text-align: center;
+    background-color: #eeebdd;
+    padding: 30px;
+}
+
+#testi-empty{
+    text-align: center;
+    background-color: #eeebdd;
+    padding: 30px;
+    margin: unset;
+    color: #ce1212;
+}
+
+
+
+.item-buy{
+    text-align: left;
+}
+
+.result-testi{
+    background-color: #eeebdd;
+}
+
+.testi{
+    margin: unset;
+    color: #ce1212;
+    text-align: center;
+}
+
+.header {
+    height: 200px;
+    background-image: url('./asset/5.jpg');
+    background-position: center right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #ce1212;
+    color: #eeebdd;
+}
+
+.active-link .nav-link {
+    color: #1b1717;
+}
+
+.logo-desc {
+    padding-left: 30px;
+    height: inherit;
+    width: 700px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #eeebdd;
+    color: #ce1212;
+}
+
+.bg-nav-custom {
+    background-color: #ce1212;
+}
+
+.nav-link {
+    color: #eeebdd;
+}
+
+.nav-link:hover {
+    color: #1b1717;
+}
+
+.content-desc { 
+    position: relative; 
+    background-image: url('./asset/11.jpg');
+    background-size: 90%;
+    background-position: center;
+}
+    
+.content-desc::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(238, 235, 221, 0.6);
+}
+
+.content-desc p {
+    position: relative;
+    color: #ce1212;  
+    font-size: 16px;
+    text-align: center;
+}
+
+.content-desc {
+    padding: 50px 300px 50px 300px;
+    background-color: #eeebdd;
+    color: #ce1212;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card {
+    text-align: left;
+}
+
+.card-body{
+    background-color: white;
+    text-align: left;
+}
+
+#input-name{
+	border: none;
+	padding: unset;
+	font-size: 20px;
+}
+
+#input-price{
+	border: none;
+}
+
+#input-qty{
+    border: none;
+    border-bottom: solid 1px #1b1717;
+    margin-left: 10px;
+    width: 60px;
+}
+
+#checkbox {
+    margin-left: 10px;
+}
+
+.menu-submit-btn, .testi-submit-btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ce1212;
+    line-height: 40px;
+    font-size: 18px;
+    color: #eeebdd;
+    border: none;
+}
+button:disabled,
+button[disabled]{
+  opacity: 80%;
+}
+
+.fa {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #ce1212;
+    color: #eeebdd;
+}
+
+.fa:hover{
+    text-decoration: none;
+    color: #eeebdd;
+}
+
+.col-form-label{
+    text-align: left;
+}
+
+.container-testimoni form{
+    width: 80%;
+    margin: auto;
+}
+
+#inputTestimoni{
+    height: 300px;
+}
+
+.error-msg{
+    color: #ce1212;
+    text-align: left;
+}
+
+a.go-cashier{
+    margin-top: 20px;
+}
+
+.title-cart{
+    margin-bottom: 15px;
+    color: #ce1212;
+}
+
+.change{
+    margin-top: 15px;
+}
+
+.container-cashier form{
+    width: 80%;
+    margin: auto;
+}
+
+
+#inputMoney{
+    border: none;
+    width: 50%;
+    display: inline-block;
+}
+
+.money-submit-btn {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ce1212;
+    line-height: 20px;
+    font-size: 18px;
+    color: #eeebdd;
+    border: none;
+}
+
+#errMoney{
+    text-align: center;
+    display: none;
+}
+
+#change{
+    color: #ce1212;
+    margin-top: 15px;
+}

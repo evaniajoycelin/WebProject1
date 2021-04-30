@@ -1,0 +1,1 @@
+<footer class='footer'>Copyright &#169; Kantin Sehat 2021. <br>Design and coded by Evania Joycelin</footer>
